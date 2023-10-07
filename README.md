@@ -13,7 +13,7 @@
 </div>
 <div align="center">
 
-[![](https://img.shields.io/badge/version-v1.5.2-LightPink)](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/Plugin%20version.md)
+[![](https://img.shields.io/badge/version-v1.5.2-LightPink)](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/resources/markdown/Plugin%20version.md)
 [![](https://img.shields.io/badge/Author-脆脆鲨-red)](https://gitee.com/JMCCS)
 [![](https://img.shields.io/badge/Author-小雨-red)](https://gitee.com/SHIKEAIXY)
 [![](https://img.shields.io/badge/Yunzai-v3-yellow)](https://gitee.com/Le-niao/Yunzai-Bot)
@@ -63,7 +63,7 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin.git ./pl
 ```
 ### github下载
 ```
-git clone --depth 1 https://github.com/SHIKEAIXY/Jinmaocuicuisha.git ./plugins/Jinmaocuicuisha-plugin
+git clone --depth 1 https://github.com/SHIKEAIXY/Jinmaocuicuisha-plugin.git ./plugins/Jinmaocuicuisha-plugin
 ```
 ### zip下载
 
