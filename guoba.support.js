@@ -13,7 +13,7 @@ export function supportGuoba () {
       title: 'Jinmaocuicuisha-plugin',
       author: '@JMCCS @小雨',
       authorLink: 'https://gitee.com/JMCCS',
-      link: 'https://gitee.com/JMCCS/jinmaocuicuisha',
+      link: 'https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin',
       isV3: true,
       isV2: false,
       description: '提供一些没啥用的功能',

@@ -13,14 +13,14 @@
 </div>
 <div align="center">
 
-[![](https://img.shields.io/badge/version-v1.5.2-LightPink)](https://gitee.com/JMCCS/Jinmaocuicuisha/blob/master/Plugin%20version.md)
+[![](https://img.shields.io/badge/version-v1.5.2-LightPink)](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/Plugin%20version.md)
 [![](https://img.shields.io/badge/Author-脆脆鲨-red)](https://gitee.com/JMCCS)
 [![](https://img.shields.io/badge/Author-小雨-red)](https://gitee.com/SHIKEAIXY)
 [![](https://img.shields.io/badge/Yunzai-v3-yellow)](https://gitee.com/Le-niao/Yunzai-Bot)
-<a href='https://gitee.com/JMCCS/Jinmaocuicuisha/stargazers'><img src='https://gitee.com/JMCCS/Jinmaocuicuisha/badge/star.svg?theme=dark' alt='star'></img></a>
-<a href='https://gitee.com/JMCCS/Jinmaocuicuisha/members'><img src='https://gitee.com/JMCCS/Jinmaocuicuisha/badge/fork.svg?theme=dark' alt='fork'></img></a>
+<a href='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/stargazers'><img src='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/badge/star.svg?theme=dark' alt='star'></img></a>
+<a href='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/members'><img src='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/badge/fork.svg?theme=dark' alt='fork'></img></a>
 
-[![访问量](https://profile-counter.glitch.me/Jinmaocuicuisha/count.svg)](https://gitee.com/JMCCS/Jinmaocuicuisha.git)
+[![访问量](https://profile-counter.glitch.me/jinmaocuicuisha/count.svg)](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin)
 
 </div>
 
@@ -41,7 +41,7 @@
 
 7.QAQ抄的各位大佬的，感觉没啥用的样子
 
-8.在这里说一下在[`apps/UP.js`](https://gitee.com/JMCCS/Jinmaocuicuisha/blob/master/apps/UP.js)中写了2个作者的[`更新权限`](https://gitee.com/JMCCS/Jinmaocuicuisha/blob/master/resources/%E8%82%BE%E8%99%9A%E7%9A%84%E8%84%86%E8%84%86%E9%B2%A8/up%E6%9D%83%E9%99%90.png)可以自行删除
+8.在这里说一下在[`apps/UP.js`](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/apps/UP.js)中写了2个作者的[`更新权限`](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/resources/%E8%82%BE%E8%99%9A%E7%9A%84%E8%84%86%E8%84%86%E9%B2%A8/up%E6%9D%83%E9%99%90.png)可以自行删除
 
 9.注意！注意！注意！安装本插件后请第一时间给机器人发 `#设置绝对权限`
 
@@ -59,7 +59,7 @@
 
 ### gitee下载（强烈推荐）
 ```
-git clone --depth 1 https://gitee.com/JMCCS/Jinmaocuicuisha-plugin.git ./plugins/Jinmaocuicuisha-plugin
+git clone --depth 1 https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin.git ./plugins/Jinmaocuicuisha-plugin
 ```
 ### github下载
 ```
@@ -82,7 +82,7 @@ cd plugins/Jinmaocuicuisha-plugin
 git init
 ```
 ```
-git remote add origin https://gitee.com/JMCCS/Jinmaocuicuisha.git
+git remote add origin https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin.git
 ```
 
 ---
@@ -94,7 +94,7 @@ git remote add origin https://gitee.com/JMCCS/Jinmaocuicuisha.git
 
 | `功能介绍/报错解决`|
 | ------------- |
-|[点击此处查看脆脆鲨使用帮助](https://gitee.com/JMCCS/Jinmaocuicuisha/blob/master/Plugin%20function.md)|
+|[点击此处查看脆脆鲨使用帮助](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/tree/master/resources/markdown)|
 
 ---
  
@@ -105,7 +105,7 @@ git remote add origin https://gitee.com/JMCCS/Jinmaocuicuisha.git
 
 | `关于版本`|
 | ------------- |
-|[点击查看脆脆鲨版本](https://gitee.com/JMCCS/Jinmaocuicuisha/blob/master/Plugin%20version.md)|
+|[点击查看脆脆鲨版本](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/resources/markdown/Plugin%20version.md)|
 
 ---
 

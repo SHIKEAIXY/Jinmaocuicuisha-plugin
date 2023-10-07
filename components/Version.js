@@ -2,7 +2,7 @@ import fs from 'fs'
 import lodash from 'lodash'
 const Plugin_Path = `${process.cwd()}/plugins/Jinmaocuicuisha-plugin`;
 const README_path = `${Plugin_Path}/README.md`
-const CHANGELOG_path = `${Plugin_Path}/Plugin version.md`
+const CHANGELOG_path = `${Plugin_Path}/resources/markdown/Plugin version.md`
 let yunzai_ver = '';
 try{
   let packageJson = JSON.parse(fs.readFileSync(`${process.cwd()}/package.json`, 'utf8'));
