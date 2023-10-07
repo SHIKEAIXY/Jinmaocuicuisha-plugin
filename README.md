@@ -67,9 +67,9 @@ git clone --depth 1 https://github.com/SHIKEAIXY/Jinmaocuicuisha.git ./plugins/J
 ```
 ### zip下载
 
-[点击此处下载](https://gitee.com/JMCCS/Jinmaocuicuisha/repository/archive/master.zip)
+[点击此处下载](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/repository/archive/master.zip)
 
-下好后重命名为`Jinmaocuicuisha-plugin`放进plugins文件中
+下好后文件名称删掉`-master`放进plugins文件中
 <br>
     <img src="resources/肾虚的脆脆鲨/ljjc.png" width="50%">
 
