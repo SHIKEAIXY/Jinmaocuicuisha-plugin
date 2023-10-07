@@ -82,7 +82,7 @@ export class jmccs_update extends plugin {
 				},
 				{
 					/** 命令正则匹配 */
-					reg: '^#?脆脆鲨(插件)?更新日志$',
+					reg: '^#?脆脆鲨(插件)?(更新)?日志$',
 					/** 执行方法 */
 					fnc: 'update_log',
                 }
