@@ -1,0 +1,42 @@
+name: Bug 反馈
+description: 当你在代码中发现了一个 Bug，导致插件报错或异常，或者某一个代码存在问题，或者某些地方看起来不对劲
+title: "[Bug名]: "
+labels: ["bug"]
+body:
+  - type: checkboxes
+    attributes:
+      label: 这个问题是否不在 issues 以及 问题解决办法 中出现？
+      options:
+        - label: 我确认不在以上所说中出现
+          required: true
+  - type: textarea
+    attributes:
+      label: 问题描述
+      description: 请详细告诉我们你遇到的问题，如涉及代码，可提供一个最小代码示例，并使用反引号```附上它
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 截图或视频
+      description: 请上传完整的后台截图等
+      placeholder: |
+        在这里上传 bug 的截图，如有多张图片请确保顺序正确
+      required: false
+  - type: dropdown
+    id: Bot
+    attributes:
+      label: Bot
+      description: 你当前正在使用？
+      options: 
+        - 喵崽（icqq）
+        - 喵崽（频道）
+        - 喵崽（微信）
+        - trss崽
+        - trss崽（icqq/gocq）
+        - trss崽（其他全部协议端）
+    validations:
+      required: false

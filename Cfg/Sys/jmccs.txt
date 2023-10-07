@@ -1,0 +1,49 @@
+import plugin from '../../lib/plugins/plugin.js'
+import fetch from 'node-fetch';
+import YAML from 'yaml'
+import fs from "fs";
+import { execSync } from 'child_process'
+import { Restart } from '../other/restart.js'
+let path=process.cwd()+'/plugins/Jinmaocuicuisha-plugin/'
+
+export class xzccs extends plugin {
+constructor() {
+super({
+ name: 'rm脆脆鲨',
+ dsc: '一键rm脆脆鲨插件',
+ event: 'message',
+ priority: -1314521,
+rule: [
+      	{
+         reg: '^#(卸载脆脆鲨|rm脆脆鲨|脆脆鲨卸载)(插件)?$',
+         fnc: 'xzccs'
+         }
+         ]
+  })
+ }
+
+async xzccs(e) {
+
+ this.file = './plugins/Jinmaocuicuisha-plugin/Cfg/绝对主人/绝对主人.yaml'
+ let mst = YAML.parse(fs.readFileSync(this.file, 'utf8'))
+ let uid = mst.绝对主人;
+ if (!(e.user_id==uid)){
+    e.reply('你没权限操作！')
+    return true
+    }
+
+    if (fs.existsSync(path)) {
+     let a= await execSync('rm -rf plugins/Jinmaocuicuisha-plugin');
+ if(a.error){
+ e.reply('卸载失败~请手动尝试')
+     return true
+  }
+ await e.reply('脆脆鲨插件已经彻底卸载成功，恭喜你已经删除了Yunzai届比枫叶还大的bug，以后再接再厉噢~')
+ setTimeout(() => new Restart(this.e).restart(), 600)
+     return true
+         }else{
+    	e.reply('六，我都没有找到Jinmaocuicuisha-plugin,没装我怎么卸载')
+  }
+	return true
+    }
+}
