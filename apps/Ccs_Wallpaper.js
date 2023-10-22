@@ -94,11 +94,7 @@ export class Jinmaocuicuisha_wallpaper extends plugin {
               {
                 reg: "^#?(真寻|欧尼)(酱)?(照片|壁纸|图片)$",
                 fnc: '真寻照片'
-              },
-              {
-                reg: "^#?(真寻|欧尼)(酱)?(照片2|壁纸2|图片2)$",
-                fnc: '真寻照片2'
-              },
+              },  
         //-----------------------------------------------------------------------//  
          //   美图美图      美图美图     美图美图      美图美图      美图美图     //    
           //   美图美图      美图美图     美图美图      美图美图      美图美图   //   
@@ -109,8 +105,20 @@ export class Jinmaocuicuisha_wallpaper extends plugin {
                 fnc: '涩美图'          
               }, 
               {
-                reg: "^#?(三次元姐姐)(美图|mt|MT|Mt|mT)$",
-                fnc: '三次元姐姐美图'          
+                reg: "^#?(萝莉r18)(美图|mt|MT|Mt|mT)$",
+                fnc: '萝莉r18'          
+              },
+                            {
+                reg: "^#?(pc涩)(美图|mt|MT|Mt|mT)$",
+                fnc: '二次元美图'          
+              },
+                            {
+                reg: "^#?(mp涩)(美图|mt|MT|Mt|mT)$",
+                fnc: '二次元美图'          
+              },
+                            {
+                reg: "^#?(随机18)(美图|mt|MT|Mt|mT)$",
+                fnc: '二次元美图'          
               },
               {
                 reg: "^#?(二次元)(美图|mt|MT|Mt|mT)$",
@@ -303,17 +311,7 @@ async 头像照片(e) {
 async 真寻照片(e) {
   console.log("用户命令：", e.msg);
   
-  let url = `https://mahiro.tianyi.one`;  //此api由 冀安(2675712883) 部署 ----- //图片可以前往 https://gitee.com/SHIKEAIXY/zhenxun-wallpaper-picture 下载//
-  let res = await fetch(url).catch((err) => logger.error(err));
-  let msg = [segment.image(res.url)];
-  e.reply(msg);
-  return true; 
-}
-
-async 真寻照片2(e) {
-  console.log("用户命令：", e.msg);
-  
-  let url = `https://mahiro.tianyisama.tk`;  //此api由 冀安(2675712883) 部署 ----- //图片可以前往 https://gitee.com/SHIKEAIXY/zhenxun-wallpaper-picture 下载//
+  let url = `https://mahiro.tianyi.one`;  //此api由 冀安(2675712883) 部署 ----- //图片可以前往 https://gitee.com/SHIKEAIXY/zhenxun-wallpaper-picture 下载
   let res = await fetch(url).catch((err) => logger.error(err));
   let msg = [segment.image(res.url)];
   e.reply(msg);
@@ -324,10 +322,10 @@ async 真寻照片2(e) {
 //----------------------------------------------------以下是美图美图---------------------------------------------------// ↓↓↓↓↓↓↓↓
 //--------------------------------------------------------------------------------------------------------------------// ↓↓↓↓↓↓↓↓
 
-async 三次元姐姐美图(e) {
+async 萝莉r18(e) {
   console.log("用户命令：", e.msg);
   
-  let url = `https://api.btstu.cn/sjbz/api.php`;
+  let url = `https://loli.tianyi.one`;
   let res = await fetch(url).catch((err) => logger.error(err));
   let msg = [segment.image(res.url)];
   e.reply(msg);
@@ -337,6 +335,33 @@ async 涩美图(e) {
   console.log("用户命令：", e.msg);
   
   let url = `https://pic.tianyi.one`;
+  let res = await fetch(url).catch((err) => logger.error(err));
+  let msg = [segment.image(res.url)];
+  e.reply(msg);
+  return true; 
+}
+async pc涩美图(e) {
+  console.log("用户命令：", e.msg);
+  
+  let url = `https://ph.tianyi.one/pc.php`;
+  let res = await fetch(url).catch((err) => logger.error(err));
+  let msg = [segment.image(res.url)];
+  e.reply(msg);
+  return true; 
+}
+async mp涩美图(e) {
+  console.log("用户命令：", e.msg);
+  
+  let url = `https://ph.tianyi.one/mp.php`;
+  let res = await fetch(url).catch((err) => logger.error(err));
+  let msg = [segment.image(res.url)];
+  e.reply(msg);
+  return true; 
+}
+async 随机18美图(e) {
+  console.log("用户命令：", e.msg);
+  
+  let url = `https://ph.tianyi.one/rd.php`;
   let res = await fetch(url).catch((err) => logger.error(err));
   let msg = [segment.image(res.url)];
   e.reply(msg);
