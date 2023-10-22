@@ -325,7 +325,7 @@ async 真寻照片(e) {
 async 萝莉r18(e) {
   console.log("用户命令：", e.msg);
   
-  let url = `https://loli.tianyi.one`;
+  let url = `http://loli.tianyi.one`;
   let res = await fetch(url).catch((err) => logger.error(err));
   let msg = [segment.image(res.url)];
   e.reply(msg);
@@ -361,7 +361,7 @@ async mp涩美图(e) {
 async 随机18美图(e) {
   console.log("用户命令：", e.msg);
   
-  let url = `http://ph.tianyi.one/rd.php`;
+  let url = `https://ph.tianyi.one/rd.php`;
   let res = await fetch(url).catch((err) => logger.error(err));
   let msg = [segment.image(res.url)];
   e.reply(msg);
