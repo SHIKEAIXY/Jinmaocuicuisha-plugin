@@ -11,7 +11,7 @@
 [![](https://img.shields.io/badge/version-v1.5.2-LightPink)](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/resources/markdown/Plugin%20version.md)
 [![](https://img.shields.io/badge/Author-脆脆鲨-red)](https://gitee.com/JMCCS)
 [![](https://img.shields.io/badge/Author-小雨-red)](https://gitee.com/SHIKEAIXY)
-[![](https://img.shields.io/badge/website.copyright-2023.1.01-present-blue)](https://ccsxy.netlify.app)
+[![](https://img.shields.io/badge/website_copyright-2023.1.01_present-blue)](https://ccsxy.netlify.app)
 [![](https://img.shields.io/badge/Yunzai-v3-yellow)](https://gitee.com/Le-niao/Yunzai-Bot)
 <a href='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/stargazers'><img src='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/badge/star.svg?theme=dark' alt='star'></img></a>
 <a href='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/members'><img src='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/badge/fork.svg?theme=dark' alt='fork'></img></a>
