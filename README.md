@@ -5,17 +5,13 @@
   
 <h1>Jinmaocuicuisha-plugin</h1>
 
-
-# [ 点击访问脆脆鲨网页 ](https://ccsxy.netlify.app) 使用nelify部署
-脆脆鲨插件是一个Yunzai-Bot的扩展插件，给bot提供一些便携管理和一些娱乐功能
-
-
 </div>
 <div align="center">
 
 [![](https://img.shields.io/badge/version-v1.5.2-LightPink)](https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/blob/master/resources/markdown/Plugin%20version.md)
 [![](https://img.shields.io/badge/Author-脆脆鲨-red)](https://gitee.com/JMCCS)
 [![](https://img.shields.io/badge/Author-小雨-red)](https://gitee.com/SHIKEAIXY)
+[![](https://img.shields.io/badge/website copyright-2023.1.01-present-blue)](https://ccsxy.netlify.app)
 [![](https://img.shields.io/badge/Yunzai-v3-yellow)](https://gitee.com/Le-niao/Yunzai-Bot)
 <a href='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/stargazers'><img src='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/badge/star.svg?theme=dark' alt='star'></img></a>
 <a href='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/members'><img src='https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin/badge/fork.svg?theme=dark' alt='fork'></img></a>
@@ -99,7 +95,9 @@ git remote add origin https://gitee.com/SHIKEAIXYY/Jinmaocuicuisha-plugin.git
 ---
  
 ## 宣一下群
-欢迎各位大佬萌新进群玩：`脆脆鲨群:` [657142904](https://jq.qq.com/?_wv=1027&k=PrOc8Qp4)
+`脆脆鲨群:` [657142904](https://jq.qq.com/?_wv=1027&k=PrOc8Qp4)
+
+本群将作为聊天群
 
 ---
 
