@@ -361,7 +361,7 @@ async mp涩美图(e) {
 async 随机18美图(e) {
   console.log("用户命令：", e.msg);
   
-  let url = `https://ph.tianyi.one/rd.php`;
+  let url = `http://ph.tianyi.one/rd.php`;
   let res = await fetch(url).catch((err) => logger.error(err));
   let msg = [segment.image(res.url)];
   e.reply(msg);

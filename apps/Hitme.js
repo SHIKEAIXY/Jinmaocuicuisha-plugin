@@ -90,7 +90,7 @@ export class HitmeandTa extends plugin {
     }
 async Hitmeckapi(e) {
 
-        let text = "真寻https://mahiro.tianyi.one\n \n二次元壁纸https://t.mwm.moe/pc\n \n二次元风景https://t.mwm.moe/fj\n \n随机ai图https://t.mwm.moe/ai\n \n动漫http://www.dmoe.cc/random.php\n  \n动漫https://moe.anosu.top/img\n \n随机图https://api.yimian.xyz/img\n \n随机可爱图http://www.98qy.com/sjbz/api.php\n \n随机竖屏图https://api.anosu.top/img\n \n原神https://api.dujin.org/pic/yuanshen\n \n随机pc涩图ph.tianyi.one/pc.php\n \n随机mp涩图ph.tianyi.one/mp.php\n \n随机r18图ph.tianyi.one/rd.php\n \n随机萝莉r18图loli.tianyi.one\n \n使用方法 #写入打人api+上面的随便一个api即可 \n注意每次更换api时请先 #删除打人api 再写入api\n \n如果你使用了原神api那么返回速度会非常慢！";
+        let text = "真寻https://mahiro.tianyi.one\n \n二次元壁纸https://t.mwm.moe/pc\n \n二次元风景https://t.mwm.moe/fj\n \n随机ai图https://t.mwm.moe/ai\n \n动漫http://www.dmoe.cc/random.php\n  \n动漫https://moe.anosu.top/img\n \n随机图https://api.yimian.xyz/img\n \n随机可爱图http://www.98qy.com/sjbz/api.php\n \n随机竖屏图https://api.anosu.top/img\n \n原神https://api.dujin.org/pic/yuanshen\n \n随机pc涩图ph.tianyi.one/pc.php\n \n随机mp涩图ph.tianyi.one/mp.php\n \n随机r18图ph.tianyi.one/rd.php\n \n随机萝莉r18图http://loli.tianyi.one\n \n使用方法 #写入打人api+上面的随便一个api即可 \n注意每次更换api时请先 #删除打人api 再写入api\n \n如果你使用了原神api那么返回速度会非常慢！";
         let msg = [
             text,
             segment.image(`https://mahiro.tianyi.one`)
